@@ -11,7 +11,7 @@ public class Rachel implements Runnable {
 
     @Override
     public void run() {
-        while(scene.i < scene.getSizeList()) {
+        while (scene.i < scene.getSizeList()) {
             System.out.println("Rachel: " + scene.nextPhrase());
             try {
                 Thread.sleep(200);
